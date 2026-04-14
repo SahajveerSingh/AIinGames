@@ -1,0 +1,22 @@
+# map3.txt - Custom map with varied terrain
+# Demonstrates cost differences between terrain types
+# 10 wide x 8 tall
+10 8
+# Start index 0 (bottom-left), Target index 79 (top-right)
+0 79
+# Row 8 (top)
+. . . . . . . . . .
+# Row 7
+. X X X . ~ ~ ~ . .
+# Row 6
+. X . X . ~ . ~ . .
+# Row 5
+. X . X X X . ~ . .
+# Row 4
+. . . . . . . ~ . .
+# Row 3
+m m m X . . . ~ . .
+# Row 2
+m . m X . f f . . .
+# Row 1 (bottom)
+. . . . . f f . . .
