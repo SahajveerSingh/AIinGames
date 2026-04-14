@@ -1,0 +1,21 @@
+# spike_map.txt - Task 6 Spike Navigation Map
+# 20 wide x 15 tall = 300 tiles (much larger than Task 5)
+# 6 terrain types: . clear  m mud  ~ water  X wall  f forest  s sand  r rock  g grass
+# Start=0 (bottom-left), Target=299 (top-right)
+20 15
+0 299
+. . . . . . . . . . . . . . . . . . . .
+f f f f f f . . . . . . . . s s s s . .
+~ ~ ~ X X . . f f f f . . . . . X X . .
+r r r r X r r r r X r r r r X r r r X .
+s s s . . . s s s s s s . . . s s s s .
+f f . . ~ ~ ~ f f f . . ~ ~ . . f f . .
+X X X X X X X X X . X X X X X X X X X .
+m m m m . . m m m m m m . . m m m m . .
+. . r r r . . . r r r . . . r r r . . .
+s s s f f f s s s f f f s s s f f f s .
+~ ~ X ~ ~ . . ~ ~ X ~ ~ . . ~ ~ X ~ ~ .
+m m m . . . m m m . . . m m m . . m m .
+f f f f X f f f f X f f f f X f f f X .
+s s s s s s s s s s s s s s s s s s s .
+. . . . . . . . . . . . . . . . . . . .
